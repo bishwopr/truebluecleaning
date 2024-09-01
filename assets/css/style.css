@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Fira Sans Condensed", sans-serif;
-    color: rgb(18, 56, 71);
+    color: rgb(4, 171, 238);
     background-color: #ffffff;
 }
 
@@ -27,8 +27,7 @@ body {
 /*Generic styles for body headings and paragraphs text*/
 /*Style headings for values and mission*/
 .generic-div h2 {
-    background-color: rgb(18, 56, 71);
-    color: #ffffff;
+    background4171 c238or: #ffffff;
     text-align: center;
     text-transform: capitalize;
     font-weight: 700;
@@ -61,8 +60,7 @@ table {
 #contact h2,
 #cleaning-services h2,
 .about-div h2 {
-    background-color: rgb(18, 56, 71);
-    color: #ffffff;
+    background4171 c238or: #ffffff;
     text-align: center;
     text-transform: capitalize;
     font-weight: 700;
@@ -89,10 +87,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: rgb(18, 56, 71);
-}
-
-/*Style navigation links*/
+    background4
+}171/*238yle navigation links*/
 header a {
     text-decoration: none;
     color: inherit;
@@ -192,8 +188,7 @@ main {
 .quote-button {
     font-weight: 700;
     font-size: 18px;
-    color: rgb(18, 56, 71);
-    border-color: rgb(29, 87, 110, 0.3);
+4171 b238der-color: rgb(29, 87, 110, 0.3);
     border-radius: 5px;
     text-transform: uppercase;
     padding: 6px;
@@ -358,10 +353,8 @@ textarea {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: rgb(18, 56, 71);
-}
-
-/*Style Font Awesome footer social icons*/
+    background4
+}171/*238yle Font Awesome footer social icons*/
 #socials i {
     font-size: 150%;
     padding: 5%;
