@@ -43,101 +43,79 @@
         </nav>
     </header>
 
-    <!--Main Content-->
-    <main>
-        <section id="contact">
-            <div id="contact-photo">
-                <img src="assets/images/tch-logo-large.png" alt="True Blue Cleaning Logo">
-            </div>
-            <h2>Get In Touch</h2>
-            <!--Input fields for basic user information-->
-            <div class="form-container">
-                <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="full-name">Full Name</label>
-                        </div>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" name="full_name" id="full-name" placeholder="Full Name" class="text-input" required>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="email-address">Email Address</label>
-                        </div>
-                    </div>
-                    <div class="col-75">
-                        <input type="email" name="email_adress" id="email-address" placeholder="Email Address" class="text-input" required>
-                    </div>
-                    
-                    <!--Options to select area/county-->
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="county">County</label>
-                        </div>
-                        <div class="col-75">
-                            <select id="county" name="county">
-                                <option>Please select</option>
-                                <option value="Adelaide Inner subhurbs">Berkshire</option>
-                                <option value="Outer region">Buckinghamshire</option>
-                                
-                            </select>
-                        </div>
-                    </div>
-                    <br>
+   <!--Main Content-->
+   <main>
+    <section id="contact">
+        <div id="contact-photo">
+            <img src="assets/images/tch-logo-large.png" alt="True Blue Cleaning Logo">
+        </div>
+        <h2>Get In Touch</h2>
+      <form action="https://formsubmit.co/07b9c43d41342d4549b9237df662dec9" method="POST>
+        
+<input type="hidden" name="_next" value="/thankyou.html">
+<!-- Optional: Disable CAPTCHA -->
+<input type="hidden" name="_captcha" value="false">
 
-                    <!--Radio buttons for home details-->
-                    <div class="row">
-                        <div class="col-25 radio-button">
-                            <p>Do you have pets?</p>
-                        </div>
-                    </div>
-                    <div class="col-75">
-                        <label for="yes">Yes</label>
-                        <input type="radio" name="pets" id="yes" value="yes" required checked>
-                    </div>
-                    <div class="row">
-                        <div class="col-75">
-                            <label for="no">No</label>
-                            <input type="radio" name="pets" id="no" value="no" required>
-                        </div>
-                    </div>
-                    <br>
-                    <!--Radio buttons for parking options-->
-                    <div class="row">
-                        <div class="col-25 radio-button">
-                            <p>Are there parking restrictions on your road?</p>
-                        </div>
-                    </div>
-                    <div class="col-75">
-                        <label for="yes_restrictions">Yes</label>
-                        <input type="radio" name="restrictions" id="yes_restrictions" value="yes" required checked>
-                    </div>
-                    <div class="row">
-                        <div class="col-75">
-                            <label for="no_restrictions">No</label>
-                            <input type="radio" name="restrictions" id="no_restrictions" value="no" required>
-                        </div>
-                    </div>
-
-                    <!--Option to enter message-->
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="message">Your Message</label>
-                        </div>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="message" name="message" placeholder="Please enter a brief description of your property including number of bedrooms, bathrooms, and floors."></textarea>
-                    </div>
-                    <div class="row">
-                        <input type="submit" value="Send Message">
-                    </div>
-                    <!--Option to clear form-->
-                    <input type="reset" value="Clear Form">
-                </form>
+<fieldset>
+    <div class="form-group">
+        <div class="form-row">
+            <div class="col">
+                <input type="text" name="full_name" class="form-control" placeholder="Full Name" required aria-label="Full Name">
             </div>
-        </section>
-    </main>
+            <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required aria-label="Email Address">
+            </div>
+        </div>
+    </div>
+
+    <!-- Phone Number Field -->
+    <div class="form-group">
+        <label for="phone">Phone Number (Optional)</label>
+        <div class="phone-group">
+            <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+            <label for="no_phone">
+                <input type="checkbox" id="no_phone" name="no_phone" value="yes" aria-label="I don't want to share my phone number"> I don't want to share my phone number
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="county">County</label>
+        <select id="county" name="county" class="form-control" required aria-label="County">
+            <option value="">Please select</option>
+            <option value="Berkshire">Berkshire</option>
+            <option value="Buckinghamshire">Buckinghamshire</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <p>Do you have pets?</p>
+        <label for="yes_pets">
+            <input type="radio" name="pets" id="yes_pets" value="yes" required aria-label="Yes, I have pets"> Yes
+        </label>
+        <label for="no_pets">
+            <input type="radio" name="pets" id="no_pets" value="no" required aria-label="No, I do not have pets"> No
+        </label>
+    </div>
+
+    <div class="form-group">
+        <p>Are there parking restrictions on your road?</p>
+        <label for="yes_restrictions">
+            <input type="radio" name="restrictions" id="yes_restrictions" value="yes" required aria-label="Yes, there are parking restrictions"> Yes
+        </label>
+        <label for="no_restrictions">
+            <input type="radio" name="restrictions" id="no_restrictions" value="no" required aria-label="No, there are no parking restrictions"> No
+        </label>
+    </div>
+
+    <div class="form-group">
+        <textarea name="message" class="form-control" placeholder="Please enter a brief description of your property including number of bedrooms, bathrooms, and floors." rows="5" required aria-label="Message"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-lg btn-dark btn-block" aria-label="Send Message">Send Message</button>
+</fieldset>
+</form>
+      </main>
 
     <!--Footer-->
     <footer>
