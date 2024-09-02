@@ -40,6 +40,19 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+.phone-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-group input[type="text"] {
+    flex: 1;
+}
+
+.phone-group label {
+    margin: 0;
+}
 
 /*Style services table*/
 table {
