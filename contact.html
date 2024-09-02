@@ -50,72 +50,72 @@
             <img src="assets/images/tch-logo-large.png" alt="True Blue Cleaning Logo">
         </div>
         <h2>Get In Touch</h2>
-      <form action="https://formsubmit.co/07b9c43d41342d4549b9237df662dec9" method="POST"
+        <form action="https://formsubmit.co/07b9c43d41342d4549b9237df662dec9" method="POST"
       
-<!Redirect to your thank-you page after form submission -->
-<input type="hidden" name="_next" value="/thankyou.html">
-<!-- Optional: Disable CAPTCHA -->
-<input type="hidden" name="_captcha" value="false">
-
-<fieldset>
-    <div class="form-group">
-        <div class="form-row">
-            <div class="col">
-                <input type="text" name="full_name" class="form-control" placeholder="Full Name" required aria-label="Full Name">
+        <!Redirect to your thank-you page after form submission -->
+        <input type="hidden" name="_next" value="/thankyou.html">
+        <!-- Optional: Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
+        
+        <fieldset>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="full_name" class="form-control" placeholder="Full Name" required aria-label="Full Name">
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required aria-label="Email Address">
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required aria-label="Email Address">
+        
+            <!-- Phone Number Field -->
+            <div class="form-group">
+                <label for="phone">Phone Number (Optional)</label>
+                <div class="phone-group">
+                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+                    <label for="no_phone">
+                        <input type="checkbox" id="no_phone" name="no_phone" value="yes" aria-label="I don't want to share my phone number"> I don't want to share my phone number
+                    </label>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Phone Number Field -->
-    <div class="form-group">
-        <label for="phone">Phone Number (Optional)</label>
-        <div class="phone-group">
-            <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
-            <label for="no_phone">
-                <input type="checkbox" id="no_phone" name="no_phone" value="yes" aria-label="I don't want to share my phone number"> I don't want to share my phone number
-            </label>
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="county">County</label>
-        <select id="county" name="county" class="form-control" required aria-label="County">
-            <option value="">Please select</option>
-            <option value="Berkshire">Berkshire</option>
-            <option value="Buckinghamshire">Buckinghamshire</option>
-        </select>
-    </div>
-
-    <div class="form-group">
-        <p>Do you have pets?</p>
-        <label for="yes_pets">
-            <input type="radio" name="pets" id="yes_pets" value="yes" required aria-label="Yes, I have pets"> Yes
-        </label>
-        <label for="no_pets">
-            <input type="radio" name="pets" id="no_pets" value="no" required aria-label="No, I do not have pets"> No
-        </label>
-    </div>
-
-    <div class="form-group">
-        <p>Are there parking restrictions on your road?</p>
-        <label for="yes_restrictions">
-            <input type="radio" name="restrictions" id="yes_restrictions" value="yes" required aria-label="Yes, there are parking restrictions"> Yes
-        </label>
-        <label for="no_restrictions">
-            <input type="radio" name="restrictions" id="no_restrictions" value="no" required aria-label="No, there are no parking restrictions"> No
-        </label>
-    </div>
-
-    <div class="form-group">
-        <textarea name="message" class="form-control" placeholder="Please enter a brief description of your property including number of bedrooms, bathrooms, and floors." rows="5" required aria-label="Message"></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-lg btn-dark btn-block" aria-label="Send Message">Send Message</button>
-</fieldset>
-</form>
+        
+            <div class="form-group">
+                <label for="county">County</label>
+                <select id="county" name="county" class="form-control" required aria-label="County">
+                    <option value="">Please select</option>
+                    <option value="Berkshire">Adelaide CBD</option>
+                    <option value="Buckinghamshire">Outer Adelaide</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <p>Do you have pets?</p>
+                <label for="yes_pets">
+                    <input type="radio" name="pets" id="yes_pets" value="yes" required aria-label="Yes, I have pets"> Yes
+                </label>
+                <label for="no_pets">
+                    <input type="radio" name="pets" id="no_pets" value="no" required aria-label="No, I do not have pets"> No
+                </label>
+            </div>
+        
+            <div class="form-group">
+                <p>Are there parking restrictions on your road?</p>
+                <label for="yes_restrictions">
+                    <input type="radio" name="restrictions" id="yes_restrictions" value="yes" required aria-label="Yes, there are parking restrictions"> Yes
+                </label>
+                <label for="no_restrictions">
+                    <input type="radio" name="restrictions" id="no_restrictions" value="no" required aria-label="No, there are no parking restrictions"> No
+                </label>
+            </div>
+        
+            <div class="form-group">
+                <textarea name="message" class="form-control" placeholder="Please enter a brief description of your property including number of bedrooms, bathrooms, and floors." rows="5" required aria-label="Message"></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn-lg btn-dark btn-block" aria-label="Send Message">Send Message</button>
+        </fieldset>
+        </form>
       </main>
 
     <!--Footer-->
